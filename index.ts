@@ -15,6 +15,11 @@ export default (file: string, port: number) => {
         fs.createReadStream(file).pipe(res);
     });
 
+    app.get(`/raw`, (_, res) => {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        fs.createReadStream(file).pipe(res);
+    });
+
     app.listen(port);
 
     console.log(`http://${ip.address()}:${port}`);
