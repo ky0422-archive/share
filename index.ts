@@ -45,6 +45,6 @@ export default (file: string, port: number) => {
     console.log(
         `${share} File uploaded to ${to} ${url}\n${share} Raw data ${to} ${url}${
             '/raw'.underline.bold
-        }`
+        }\n`
     );
 };
