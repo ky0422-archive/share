@@ -1,0 +1,24 @@
+{
+    "name": "share-file",
+    "main": "index.js",
+    "bin": {
+        "share-file": "bin/share-file"
+    },
+    "scripts": {
+        "start:node": "node ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tsukiroku/share.git"
+    },
+    "author": "tsukiroku",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tsukiroku/share"
+    },
+    "homepage": "https://github.com/tsukiroku/share",
+    "dependencies": {
+        "express": "^4.18.1",
+        "ip": "^1.1.8"
+    }
+}
