@@ -1,12 +1,15 @@
 {
-    "name": "@tsukiroku/sharefile",
+    "name": "@tsukiroku/share",
     "main": "index.js",
     "version": "1.0.0",
     "bin": {
         "share-file": "bin/share-file"
     },
     "scripts": {
-        "start:node": "node ."
+        "build": "tsc -p tsconfig.json",
+        "start:node": "build && node .",
+        "npm:publish": "npm publish --access=public",
+        "dev": "npm run build && npm r -g && npm i -g"
     },
     "repository": {
         "type": "git",
@@ -21,5 +24,14 @@
     "dependencies": {
         "express": "^4.18.1",
         "ip": "^1.1.8"
-    }
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/ip": "^1.1.0",
+        "typescript": "^4.7.4"
+    },
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist/**/*"
+    ]
 }
