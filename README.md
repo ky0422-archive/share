@@ -1,3 +1,3 @@
 ```sh
-npx @tsukiroku/sharefile [FILE NAME] [PORT (optional, default 25000)]
+npx @tsukiroku/share [FILE] [PORT (optional, default 25000)]
 ```
