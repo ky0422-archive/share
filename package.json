@@ -1,6 +1,7 @@
 {
-    "name": "share-file",
+    "name": "@tsukiroku/sharefile",
     "main": "index.js",
+    "version": "1.0.0",
     "bin": {
         "share-file": "bin/share-file"
     },
