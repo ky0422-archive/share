@@ -1,5 +1,3 @@
-![](./res.gif)
-
 ```sh
 npx @tsukiroku/share [FILE] [PORT (optional)]
 ```
