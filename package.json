@@ -14,14 +14,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tsukiroku/share.git"
+        "url": "git+https://github.com/ky0422/share.git"
     },
-    "author": "tsukiroku",
+    "author": "ky0422",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tsukiroku/share"
+        "url": "https://github.com/ky0422/share"
     },
-    "homepage": "https://github.com/tsukiroku/share",
+    "homepage": "https://github.com/ky0422/share",
     "dependencies": {
         "colors": "^1.4.0",
         "express": "^4.18.1",
